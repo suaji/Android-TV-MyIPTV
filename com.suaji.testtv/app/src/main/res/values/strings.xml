@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MY IPTV</string>
+    <string name="browse_title"><![CDATA[FTA MALAYSIA IPTV]]></string>
+    <string name="related_movies">Related Videos</string>
+    <string name="grid_view">KEMASKINI</string>
+    <string name="error_fragment">MAKLUM BALAS</string>
+    <string name="stream_video">Tonton</string>
+    <string name="video">Movie</string>
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Exit</string>
+</resources>
