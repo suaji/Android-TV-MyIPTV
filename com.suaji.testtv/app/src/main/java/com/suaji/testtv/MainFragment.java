@@ -109,6 +109,14 @@ public class MainFragment extends BrowseFragment {
             rowsAdapter.add(new ListRow(header, listRowAdapter));
         }
 
+        HeaderItem gridHeader = new HeaderItem(i, "SETTINGS");
+
+        GridItemPresenter mGridPresenter = new GridItemPresenter();
+        ArrayObjectAdapter gridRowAdapter = new ArrayObjectAdapter(mGridPresenter);
+        gridRowAdapter.add(getResources().getString(R.string.grid_view));
+        gridRowAdapter.add(getString(R.string.error_fragment));
+        rowsAdapter.add(new ListRow(gridHeader, gridRowAdapter));
+
         setAdapter(rowsAdapter);
     }
 
